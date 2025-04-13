@@ -9,7 +9,7 @@ import { Textarea } from '../components/ui/textarea';
 import { useQuiz } from '../contexts/QuizContext';
 import { useVoiceAssistant } from '../contexts/VoiceAssistantContext';
 import { useStudySession } from '../contexts/StudySessionContext';
-import { FileUploader, Upload, File, FileText, Image, Camera, AlertTriangle, Loader2, Check, BookOpen } from 'lucide-react';
+import { Upload, File, FileText, Image, Camera, AlertTriangle, Loader2, Check, BookOpen } from 'lucide-react';
 import { toast } from '../components/ui/use-toast';
 
 const ContentUpload = () => {
